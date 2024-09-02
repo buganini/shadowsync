@@ -1,0 +1,25 @@
+Windows
+WINDOWS
+Program Files
+Program Files (x86)
+temp
+tmp
+MSOCache
+System Volume Information
+RECYCLER
+$RECYCLE.BIN
+*.sqm
+pagefile.sys
+TEMP
+Temporary Internet Files
+Google
+ATI
+Messenger
+Cookies
+Recent
+NetHood
+PrintHood
+Templates
+UserData
+WindowsApps
+WeChat Files

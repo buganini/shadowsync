@@ -1,0 +1,8 @@
+@echo off
+SET CWRSYNCHOME=%~dp0\cwrsync
+SET CYGWIN=nontsec
+SET HOME=%HOMEDRIVE%%HOMEPATH%
+SET CWOLDPATH=%PATH%
+SET PATH=%CWRSYNCHOME%\BIN;%PATH%
+call vss-setvar.cmd
+dosdev B: %SHADOW_DEVICE_1%
