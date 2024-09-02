@@ -1,3 +1,7 @@
+# What is Volume Shadow Copy
+Check https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service
+
+
 # Setup
 * Other Required Files
   * Put `vshadow.exe` in shadowsync folder, according to the license it's not redistributable so it's not here
@@ -7,4 +11,4 @@
   * Add --password-file= according to your need
 * Update `backup.txt`, it may vary on every computers
 * Put this folder at `C:\shadowsync`
-* Create `Task Scheduler` with administrator permission, I usually use `add_cron_user.bat` and `hide_cron_user.reg` to create an invisible user with administrator privilege
+* Create `Task Scheduler` with administrator permission to execute `sync.bat`, I usually use `add_cron_user.bat` and `hide_cron_user.reg` to create an invisible user with administrator privilege
